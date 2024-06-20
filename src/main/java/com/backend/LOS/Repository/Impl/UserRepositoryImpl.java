@@ -33,6 +33,7 @@ public class UserRepositoryImpl implements UserRepository {
 		} finally {
 			session.close();
 		}
+		
 		return user;
 	}
 
